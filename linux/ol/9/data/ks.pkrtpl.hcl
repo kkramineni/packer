@@ -28,9 +28,6 @@ keyboard --xlayouts='gb'
 ### network  --bootproto=static --ip=172.16.11.200 --netmask=255.255.255.0 --gateway=172.16.11.200 --nameserver=172.16.11.4 --hostname centos-linux-8
 network --bootproto=dhcp
 
-### Lock the root account.
-rootpw --lock
-
 ### The selected profile will restrict root login.
 ### Add a user that can login and escalate privileges.
 rootpw --iscrypted $6$x3xHqfCtY7cb.5Zr$/BIDj1zRJj4.2JBxfWOVmpgeeezJaNnfqv1/XQJ4pM3lVv0yXHlThnjLo9Easo1quc609I7tkVOtEs3G7KiVK.
