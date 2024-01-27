@@ -29,7 +29,7 @@ keyboard --xlayouts='gb'
 network --bootproto=dhcp
 
 ### Lock the root account.
-rootpw --lock
+
 
 ### The selected profile will restrict root login.
 ### Add a user that can login and escalate privileges.
