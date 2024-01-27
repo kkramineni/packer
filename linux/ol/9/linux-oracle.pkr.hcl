@@ -102,7 +102,7 @@ source "vsphere-iso" "linux-oracle" {
   ssh_proxy_port     = var.communicator_proxy_port
   ssh_proxy_username = var.communicator_proxy_username
   ssh_proxy_password = var.communicator_proxy_password
-  ssh_username       = "root"
+  ssh_username       = "kishore"
   ssh_password       = "VMware1!"
   ssh_port           = var.communicator_port
   ssh_timeout        = var.communicator_timeout
